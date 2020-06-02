@@ -38,6 +38,16 @@ This repository is meant to be a resource that will help you learn how to use gi
 9. Push the local repository to the remote repository
 	- `$ git push origin master`
 
+## Standard Workflow
+It is best practice to follow this standard workflow when working with git/github, especially when collaborating with other developers. New features should always be developed within a new branch and then merged into master branch when production ready.
+```
+$ git status
+$ git pull
+$ git add example.txt
+$ git commit -m "Changes to example.txt"
+$ git push origin master
+```
+
 
 ## Commmand Reference
 **Here are some commonly used git commands and a brief description of what they do**
