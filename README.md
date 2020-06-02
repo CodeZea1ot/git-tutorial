@@ -38,6 +38,25 @@ This repository is meant to be a resource that will help you learn how to use gi
 9. Push the local repository to the remote repository
 	- `$ git push origin master`
 
+## Standard Workflow
+It is best practice to follow this standard workflow when working with git/github, especially when collaborating with other developers. New features should always be developed within a new branch and then merged into master branch when production ready.
+```
+//Check the status of your project
+$ git status
+
+//Check to see if your local repository is up to date. If not, pulls the new files/directories from the remote repository.
+$ git pull
+
+//After you have made changes to your file(s), add them to the Staging Area so you can prepare to commit them to the local repository
+$ git add example.txt
+
+//When you are finished working on your task, send the files/directories in the Staging Area to the local repository. Be sure to provide a commit message that makes sense and is clear.
+$ git commit -m "Changes to example.txt"
+
+//Push your local changes to the remote repository
+$ git push origin <branch>
+```
+
 ## Branches and Merging
 All new features should be developed within a singular branch. Once the feature is production ready, the branch that it was developed on should then be merged into the master branch.
 ```
@@ -59,26 +78,6 @@ $ git merge <my_new_branch_here>
 $ git branch -d <my_new_branch_here>
 
 ```
-
-## Standard Workflow
-It is best practice to follow this standard workflow when working with git/github, especially when collaborating with other developers. New features should always be developed within a new branch and then merged into master branch when production ready.
-```
-//Check the status of your project
-$ git status
-
-//Check to see if your local repository is up to date. If not, pulls the new files/directories from the remote repository.
-$ git pull
-
-//After you have made changes to your file(s), add them to the Staging Area so you can prepare to commit them to the local repository
-$ git add example.txt
-
-//When you are finished working on your task, send the files/directories in the Staging Area to the local repository. Be sure to provide a commit message that makes sense and is clear.
-$ git commit -m "Changes to example.txt"
-
-//Push your local changes to the remote repository
-$ git push origin <branch>
-```
-
 
 ## Commmand Reference
 **Here are some commonly used git commands and a brief description of what they do**
