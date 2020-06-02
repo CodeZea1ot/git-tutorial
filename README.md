@@ -17,7 +17,7 @@ This repository is meant to be a resource that will help you learn how to use gi
 2. Create a new remote repository on Github.com
 3. Navigate to the directory you would like to clone your remote repository
 	- `$ cd some/directory/path/here`
-4. Clone the remote repository to the pwd
+4. Clone the remote repository to the current working directory
 5. Begin your workflow
 
 ## How to add an existing project to git
@@ -55,11 +55,11 @@ $ git push origin master
 | Command | Description |
 |---------|-------------|
 |    `$ git status`     |   Returns information pertaining to the state of your project and its contents          |
-|  `$ git init`       |     Creates a new local repository in the pwd        |
+|  `$ git init`       |     Creates a new local repository in the current working directory        |
 |     `$ git add <file_name_here.extension>`    |     Adds a particular file to the Staging Area        |
 | `$ git add .`| Adds all files and directories to the Staging Area|
 | `$ git add -A`|Adds all files and directories to the Staging Area, while also handling deleted, moved, or renamed files/directories, etc |
-|`$ git clone https://github.com/some_repo_url_here` | Clones an existing Github repository to the pwd (Note: This creates a local repository within a subdirectory that is given the name of the cloned repository)|
+|`$ git clone https://github.com/some_repo_url_here` | Clones an existing Github repository to the current working directory (Note: This creates a local repository within a subdirectory that is given the name of the cloned repository)|
 |`$ git commit -m "<commit_message_here>"` | Adds all files/directories that are currently in the Staging Area to the local repository |
 |`$ git remote add origin <https://github.com/some_repo_url_here>` |Adds a remote repository that you can push to and pull from |
 | `$ git remote -v` |Returns a list of remote repositories |
