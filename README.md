@@ -6,10 +6,10 @@ This repository is meant to be a resource that will help you learn how to use gi
 ## Global Configuration
 **These commands are used to configure your global git environment. This information will be used in your commits.**
 
-`$ git config --global user.name "John Smith"`
-| Sets the author's name
-
-`$ git config --global user.email "some@email.com"` | Sets the author's email
+| Command | Description |
+|---------|-------------|
+|    `$ git config --global user.name "John Smith"`    | Sets the author's name|
+| `$ git config --global user.email "some@email.com"` | Sets the author's email |
 
 
 ## How to create a new project with git
