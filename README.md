@@ -93,7 +93,7 @@ $ git branch -d <my_new_branch_here>
 |`$ git commit -m "<commit_message_here>"` | Adds all files/directories that are currently in the Staging Area to the local repository |
 |`$ git remote add origin <https://github.com/some_repo_url_here>` |Adds a remote repository that you can push to and pull from |
 | `$ git remote -v` |Returns a list of remote repositories |
-|`$ git pull` | Pulls and merges files/directories from the lastest commit of the remote repository to your local repository|
+|`$ git pull` | Fetches and merges files/directories from the lastest commit of the remote repository to your local repository|
 |`$ git push origin master` |Pushes your local repository to the remote repository |
 | `$ git branch`| Lists all available branches and returns which branch you are currently on|
 |`$ git checkout -b <branch_name_here>` |Creates a new branche and switches you from your current branch to the new branch in one command |
