@@ -5,11 +5,36 @@ This repository is meant to be a resource that will help you learn how to use gi
 
 ## Global Configuration
 **These commands are used to configure your global git environment. This information will be used in your commits.**
+
 `$ git config --global user.name "John Smith"`
 | Sets the author's name
 
 `$ git config --global user.email "some@email.com"` | Sets the author's email
 
+
+## How to create a new project with git
+1. Login to Github.com
+2. Create a new remote repository on Github.com
+3. Navigate to the directory you would like to clone your remote repository
+4. Clone the remote repository to the pwd
+5. Begin your workflow
+
+## How to add an existing project to git
+1. Login to Github.com
+2. Create a new remote repository on Github.com
+3. Copy the provided url for this remote repository
+	- Will be needed in step 8
+2. Navigate to the directory of your existing project
+5. Initialize git within the local project directory
+	- `git init`
+6. Add the files/directories to the Staging Area
+	- `git add .`
+7. Commit the files/directories in the Staging Area to the local repository created with `git init`
+	- `git commit -m "<commit_message_here>"`
+8. Add a remote repository to the project
+	- `git remote add origin <https://github.com/remote_repo_url_here>`
+9. Push the local repository to the remote repository
+	- `git push origin master`
 
 
 ## Quick Reference
@@ -33,7 +58,7 @@ This repository is meant to be a resource that will help you learn how to use gi
 `$ git clone https://github.com/some_repo_url_here`
 | Clones an existing Github repository to the pwd (Note: This creates a local repository within a subdirectory that is given the name of the cloned repository)
 
-`$ git commit -m "<Commit message here>"`
+`$ git commit -m "<commit_message_here>"`
 | Adds all files/directories that are currently in the Staging Area to the local repository
 
 `$ git remote add origin <https://github.com/some_repo_url_here>`
