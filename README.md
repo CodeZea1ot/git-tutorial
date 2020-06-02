@@ -38,6 +38,28 @@ This repository is meant to be a resource that will help you learn how to use gi
 9. Push the local repository to the remote repository
 	- `$ git push origin master`
 
+## Branches and Merging
+All new features should be developed within a singular branch. Once the feature is production ready, the branch that it was developed on should then be merged into the master branch.
+```
+//Create a new branch for your feature and switch to it
+$ git checkout -b <my_new_branch_here>
+
+//Follow standard workflow best practices until the branch is ready to be merged into the production master branch.
+
+//When ready to merge, switch to the master branch
+$ git checkout master
+
+//Check to see if your local repository is up to date. If not, pulls the new files/directories from the remote repository.
+$ git pull
+
+//Merge the feature branch into the master branch
+$ git merge <my_new_branch_here>
+
+//Now that the branch is no longer needed, remove the branch
+$ git branch -d <my_new_branch_here>
+
+```
+
 ## Standard Workflow
 It is best practice to follow this standard workflow when working with git/github, especially when collaborating with other developers. New features should always be developed within a new branch and then merged into master branch when production ready.
 ```
