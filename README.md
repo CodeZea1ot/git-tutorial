@@ -2,6 +2,7 @@
 
 This repository is meant to be a resource that will help you learn how to use git/github from the command line.
 
+#### Warning: Git. Is Hard.
 
 ## Global Configuration
 **These commands are used to configure your global git environment. This information will be used in your commits.**
