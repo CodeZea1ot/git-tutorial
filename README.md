@@ -100,3 +100,7 @@ $ git branch -d <my_new_branch_here>
 |`$ git checkout -b <branch_name_here>` |Creates a new branche and switches you from your current branch to the new branch in one command |
 | `$ git checkout <branch_name_here>`|Switches you from your current branch to the named branch |
 |`$ git branch -d <branch_name_here>` |Deletes the specified branch |
+
+
+## Other notes
+**You can add a file called `.gitignore` to the root of your reposatory to make git ignore certain files/directorys. See [here](https://git-scm.com/docs/gitignore) for more info
