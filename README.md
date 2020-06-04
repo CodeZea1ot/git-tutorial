@@ -41,7 +41,7 @@ This repository is meant to be a resource that will help you learn how to use gi
 
 ## Standard Workflow
 It is best practice to follow this standard workflow when working with git/github, especially when collaborating with other developers. New features should always be developed within a new branch and then merged into master branch when production ready.
-```shell
+```
 //Check the status of your project
 $ git status
 
