@@ -105,11 +105,11 @@ $ git branch -d <my_new_branch_here>
 ## Other notes
 **You can add a file called `.gitignore` to the root of your reposatory to make git ignore certain files/directorys. See [here](https://git-scm.com/docs/gitignore) for more info
 **Notes on `$ git add`
-*** `$ git add -A` (--all) Adds everything, so that everything in your folder is represented in the staging area
-*** `$ git add .` Stages everything, but does not remove files that have been deleted
-*** `$ git add *` Stages everything, but not files that begin with a dot(`.`) & does not remove files that have been deleted
-*** `$ git add -u` (--update) Stages only Modified Files, removes files that have been deleted, does not add new files
-*** `$ git add <file name 1> <file name 2>` Adds only certain file(s)
+	*** `$ git add -A` (--all) Adds everything, so that everything in your folder is represented in the staging area
+	*** `$ git add .` Stages everything, but does not remove files that have been deleted
+	*** `$ git add *` Stages everything, but not files that begin with a dot(`.`) & does not remove files that have been deleted
+	*** `$ git add -u` (--update) Stages only Modified Files, removes files that have been deleted, does not add new files
+	*** `$ git add <file name 1> <file name 2>` Adds only certain file(s)
 
 
 
