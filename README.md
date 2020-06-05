@@ -63,19 +63,23 @@ All new features should be developed within a singular branch. Once the feature 
 //Create a new branch for your feature and switch to it
 $ git checkout -b <my_new_branch_here>
 
-//Follow standard workflow best practices until the branch is ready to be merged into the production master branch.
+//Follow standard workflow best practices just as you would on master branch. Be sure to create a remote branch by pushing your commits with:
+$ git push origin <my_new_branch_here>
 
 //When ready to merge, switch to the master branch
 $ git checkout master
 
 //Check to see if your local repository is up to date. If not, pulls the new files/directories from the remote repository.
-$ git pull
+$ git pull origin master
 
 //Merge the feature branch into the master branch
 $ git merge <my_new_branch_here>
 
-//Now that the branch is no longer needed, remove the branch
+//Now that the branch is no longer needed, remove the local branch
 $ git branch -d <my_new_branch_here>
+
+//Now that the remote branch is no longer needed, remove the remote branch
+$ git push origin --delete <my_new_branch_here>
 
 ```
 
