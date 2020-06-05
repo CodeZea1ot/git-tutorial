@@ -99,7 +99,8 @@ $ git push origin --delete <my_new_branch_here>
 | `$ git remote -v` |Returns a list of remote repositories |
 |`$ git pull` | Fetches and merges files/directories from the lastest commit of the remote repository to your local repository|
 |`$ git push origin master` |Pushes your local repository to the remote repository |
-| `$ git branch`| Lists all available branches and returns which branch you are currently on|
+| `$ git branch`| Lists all local branches and returns which branch you are currently on|
+| `$ git branch -a`| Lists all branches (local and remote) and returns which branch you are currently on|
 |`$ git checkout -b <branch_name_here>` |Creates a new branche and switches you from your current branch to the new branch in one command |
 | `$ git checkout <branch_name_here>`|Switches you from your current branch to the named branch |
 |`$ git branch -d <branch_name_here>` |Deletes the specified branch |
